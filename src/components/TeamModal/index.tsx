@@ -1,6 +1,6 @@
-import { useEscapeKey } from "../hooks/useEscapeKey";
-import { useModal } from "../providers/Modal/modal-context";
-import { useTeamStore } from "../store/use-team-store";
+import { useEscapeKey } from "../../hooks/useEscapeKey";
+import { useModal } from "../../providers/Modal/modal-context";
+import { useTeamStore } from "../../store/use-team-store";
 
 interface TeamModalProps {
   onReset: () => void;
