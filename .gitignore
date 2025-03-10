@@ -31,3 +31,4 @@ logs
 *.tsbuildinfo
 
 plan.txt
+*storybook.log
