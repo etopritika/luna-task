@@ -7,8 +7,8 @@ The app allows a Pokémon Trainer to create their team of 4 Pokémon and view a 
 
 ## 🔗 Links
 
-- **Live Demo**: [DEMO](https://your-deploy-link.vercel.app)
-- **Storybook**: [STORYBOOK](https://your-storybook-link.vercel.app)
+- **Live Demo**: [DEMO](https://luna-task.vercel.app)
+- **Storybook**: [STORYBOOK](https://luna-task-f94d.vercel.app)
 - **GitHub Repository**: [REPO](https://github.com/etopritika/luna-task)
 
 ---
