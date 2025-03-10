@@ -28,7 +28,6 @@ export default function TrainerForm({ onNext }: TrainerFormProps) {
       onSubmit={handleSubmit(onSubmit)}
       className="flex flex-col gap-4 w-full"
     >
-      {/* First Name */}
       <div className="flex flex-col">
         <label htmlFor="firstName" className="font-medium text-gray-700">
           First Name
@@ -44,7 +43,6 @@ export default function TrainerForm({ onNext }: TrainerFormProps) {
         )}
       </div>
 
-      {/* Last Name */}
       <div className="flex flex-col">
         <label htmlFor="lastName" className="font-medium text-gray-700">
           Last Name
@@ -60,7 +58,6 @@ export default function TrainerForm({ onNext }: TrainerFormProps) {
         )}
       </div>
 
-      {/* Submit button */}
       <button
         type="submit"
         disabled={!isValid}
