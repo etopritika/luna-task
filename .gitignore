@@ -29,3 +29,6 @@ logs
 
 # TypeScript
 *.tsbuildinfo
+
+plan.txt
+*storybook.log

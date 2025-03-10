@@ -1,9 +1,10 @@
-function App() {
+import HomePage from "./pages/Home";
+import ModalProvider from "./providers/Modal";
+
+export default function App() {
   return (
-    <div className="bg-green-500 text-white p-4 rounded">
-      <p>Welcome to Luna Edge technical interview</p>
-    </div>
+    <ModalProvider>
+      <HomePage />
+    </ModalProvider>
   );
 }
-
-export default App;
