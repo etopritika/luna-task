@@ -72,9 +72,17 @@ export default function PokemonSelect({ onReset }: PokemonSelectProps) {
         <button
           onClick={handleShomTeam}
           disabled={team.length !== 4}
-          className="bg-gray-700 hover:bg-gray-500 text-white px-6 py-2 rounded"
+          className={`px-6 py-2 rounded text-white transition
+    ${
+      team.length !== 4
+        ? "bg-gray-500 cursor-not-allowed opacity-50"
+        : "bg-gray-700 hover:bg-gray-500"
+    }
+  `}
         >
-          Show Team
+          {team.length !== 4
+            ? `Select ${4 - team.length} more Pokémon`
+            : "Show Team"}
         </button>
       </div>
     </div>
